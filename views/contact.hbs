@@ -1,0 +1,35 @@
+<form method="POST" action="/" id="contact_form">
+
+    <header>
+        <h1 class="title"> Get in touch with us: </h1>
+        <p> <i class="fas fa-star-of-life"></i> required fiels to fill out </p>
+        <br/>
+    </header>
+
+    <label class="form-label" for="firstname"><b> First Name:</b> <i class="fas fa-star-of-life"></i> </label>
+    <input class="form-input" type="text" id="firstname" name="firstname" placeholder="Your name is?" required >
+
+    <label class="form-label" for="lastname"><b> Last Name: </b> </label>
+    <input class="form-input" type="text" id="lastname" name="lastname" placeholder="Your last name is?">
+
+    <label class="form-label" for="country"><b> Country </b></label>
+    <select class="form-input" id="country" name="country">
+        <option value="france">France</option>
+        <option value="germany">Germany</option>
+        <option value="austria">Austria</option>
+        <option value="belgium">Belgium</option>
+        <option value="spain">Spain</option>
+        <option value="usa">USA</option>
+    </select>
+
+    <label class="form-label" for="email"><b> Email: </b> <i class="fas fa-star-of-life"></i> </label>
+    <input class="form-input" type="email" id="email" name="email" placeholder="Your email address is?" required>
+
+    <label class="form-label" for="phone"><b> Phone Number: </b></label>
+    <input class="form-input" type="number" id="phone" name="phone" placeholder="Your phone number is?">
+
+    <label class="form-label" for="message"><b> Your Message: </b> <i class="fas fa-star-of-life"></i> </label>
+    <textarea id="message" name="message" placeholder="Write your message in this field." required ></textarea>
+
+    <input id="btn-submit" type="submit" value="Submit">
+</form>

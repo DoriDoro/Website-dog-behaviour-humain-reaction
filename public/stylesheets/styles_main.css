@@ -1,0 +1,64 @@
+/* --- general --- */
+* {
+  box-sizing: border-box;
+  padding: 5px 0;
+  margin: 0; }
+
+html {
+  font-size: 16px; }
+
+body {
+  font-family: 'Overlock', cursive;
+  font-size: 14px;
+  padding: 40px; 
+  position: relative;}
+
+/* --- general tags --- */
+a {
+  color: inherit;
+  text-decoration: none; }
+
+/* --- id main--- */
+#nav_main {
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid;
+  color: white;
+  display: flex;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 25px;
+  height: 70px;
+  left: 0;
+  padding: 0 30px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10; }
+
+#nav_container_main {
+  display: flex; }
+
+#nav_container_aside {
+  display: flex;
+  margin-left: auto; }
+
+#content_container_main {
+  margin-top: 50px; }
+
+#title_main {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 40px; }
+
+#footer_main {
+  background-color: white;
+  bottom: 0;
+  height: 30px;
+  left: 0;
+  margin-top: auto;
+  position: fixed;
+  right: 0;
+  z-index: 10; }
+
+/* --- classes main--- */
+
+
