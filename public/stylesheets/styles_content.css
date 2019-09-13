@@ -27,6 +27,8 @@
     padding: 10px; }
 .container_main_index{
     padding-top: 10px; }
+.container_main_index img{
+    width: 60%; }
 
 .form-input {
     border: 1px solid;
@@ -34,7 +36,7 @@
     padding-left: 10px;
     width: 250px; }
 .fas {
-    font-size: 7px;
+    font-size: 5px;
     color: red;
 }
 

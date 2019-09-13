@@ -1,3 +1,4 @@
+
 /* --- general --- */
 * {
   box-sizing: border-box;
@@ -11,7 +12,8 @@ body {
   font-family: 'Overlock', cursive;
   font-size: 14px;
   padding: 40px; 
-  position: relative;}
+  position: relative;
+  bottom: 20px;}
 
 /* --- general tags --- */
 a {
@@ -22,7 +24,6 @@ a {
 #nav_main {
   align-items: center;
   background-color: black;
-  border-bottom: 1px solid;
   color: white;
   display: flex;
   font-family: 'Fredericka the Great', cursive;
@@ -43,11 +44,13 @@ a {
   margin-left: auto; }
 
 #content_container_main {
-  margin-top: 50px; }
+  position: relative;
+  top: 30px; }
 
 #title_main {
   font-family: 'Fredericka the Great', cursive;
-  font-size: 40px; }
+  font-size: 40px;
+  padding-top: 10px; }
 
 #footer_main {
   background-color: white;

@@ -1,7 +1,7 @@
 const express = require('express');
 const router  = express.Router();
 
-/* GET home page */
+/* GET nav-bar -- home page */
 router.get('/', (req, res, next) => {
   res.render('index');
 });
@@ -11,11 +11,18 @@ router.get('/about', (req, res, next) => {
 });
 
 router.get('/basics', (req, res, next) => {
-  res.render('basics');
+  res.render('basics', {nav_basic: true});
 });
 
 router.get('/contact', (req, res, next) => {
   res.render('contact');
 });
+
+
+/* GET nav-basic */
+router.get('/walk', (req, res, next) => {
+  res. render('walk');
+})
+
 
 module.exports = router;
